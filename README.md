@@ -1,16 +1,12 @@
 # TechBricks-WebTask
-
 Restful API using Nest.js and Postgresql in database to serve books data to a frontend application
 
 
 # Task Description:
-
 - Every book must have Name, ISNB Number, Author, year, publisher, and category.
 - Every Author must have Name, Surname, birth date, and a photo.
 
 # Selected Task:
-<<<<<<< HEAD
-
 `Deploy backend on Heroku free tier (use the database as an addon)`
 
 # Endpoints:
@@ -23,9 +19,7 @@ Restful API using Nest.js and Postgresql in database to serve books data to a fr
   - an endpoint to retrieve a publisher and the books published by this publisher.
 - [https://tech-bricks-server-side-api.herokuapp.com/api/author]
   - An endpoint to retrieve all authors from databse.
-=======
-`Deploy backend on Heroku free tier (use the database as an addon)`
->>>>>>> 834aa593e4b31366ea6d6a9a4aadeaca7f837f9a
+
 
 # Endpoints:
 -  [https://tech-bricks-server-side-api.herokuapp.com/api/book] 
@@ -42,9 +36,5 @@ Restful API using Nest.js and Postgresql in database to serve books data to a fr
 
 - Each Author has 1 or many books.
 - Each Book is authorized by one Author.
-!['']
-<<<<<<< HEAD
-=======
+![1](ERD.png)
 
-
->>>>>>> 834aa593e4b31366ea6d6a9a4aadeaca7f837f9a
