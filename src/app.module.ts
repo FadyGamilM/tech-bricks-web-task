@@ -15,11 +15,12 @@ dotenv.config();
     // register our database orm
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST,
-      port: parseInt(<string>process.env.DB_PORT),
-      username: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_DB,
+      // host: process.env.DB_HOST,
+      // port: parseInt(<string>process.env.DB_PORT),
+      // username: process.env.DB_USER,
+      // password: process.env.DB_PASSWORD,
+      // database: process.env.DB_DB,
+      url: process.env.DATABASE_URL,
       // register our entities
       // entities: [AuthorEntity, BookEntity],
       synchronize: true, // don't push it as it in the production
